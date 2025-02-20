@@ -45,29 +45,29 @@ A custom Telegram bot developed in Java to streamline the food ordering process 
    
    ```bash
    For Maven: mvn clean install
-   ```bash
+   
 
-   Running Locally
+4. **Running Locally:**
    Run the bot by executing the generated JAR file:
 
-   
+   ```bash
    java -jar target/FoodOrderingBot.jar
 
 5. **Deployment**
 
-   1. Deploying on Heroku
+   1. **Deploying on Heroku**
 
    ```bash
    heroku create your-heroku-app-name
    
-   2. Set Environment Variables on Heroku:
+   2. **Set Environment Variables on Heroku:**
 
    ```bash
    heroku config:set TELEGRAM_BOT_TOKEN=your_telegram_bot_token
    heroku config:set GOOGLE_SHEET_ID=your_google_sheet_id
    heroku config:set GOOGLE_SHEETS_CREDENTIALS=path/to/your/google/credentials.json
 
-   3. Deploy Your Code:
+   3. **Deploy Your Code:**
 
    ```bash
    git push heroku main
