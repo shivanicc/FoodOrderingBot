@@ -45,11 +45,12 @@ A custom Telegram bot developed in Java to streamline the food ordering process 
    
    ```bash
    For Maven: mvn clean install
+   ```bash
 
    Running Locally
    Run the bot by executing the generated JAR file:
 
-   ```bash
+   
    java -jar target/FoodOrderingBot.jar
 
 5. **Deployment**
