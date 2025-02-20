@@ -57,13 +57,12 @@ A custom Telegram bot developed in Java to streamline the food ordering process 
 
    Deploying on Heroku
  
-    1. **Create a Heroku App:**
+    i) **Create a Heroku App:**
    
    ```bash
    heroku create your-heroku-app-name
    
- 2. **Set Environment Variables on Heroku:**
-
+ ii) **Set Environment Variables on Heroku:**
 ```bash   
 heroku config:set TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 heroku config:set GOOGLE_SHEET_ID=your_google_sheet_id
